@@ -98,7 +98,7 @@ TextButton6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton6.Position = UDim2.new(0.519011319, 0, 0.545255125, 0)
 TextButton6.Size = UDim2.new(0, 134, 0, 43)
 TextButton6.Font = Enum.Font.SourceSans
-TextButton6.Text = "idk placeholder!!"
+TextButton6.Text = "infyeild(i didnt make this one but yuh)"
 TextButton6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton6.TextSize = 14.000
 
@@ -289,7 +289,7 @@ TextButton5.MouseButton1Down:Connect(function()
 end)
 
 TextButton6.MouseButton1Down:Connect(function()
-
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 
