@@ -299,7 +299,7 @@ TextButton8.MouseButton1Down:Connect(function()
         wait(.1)
         if not getgenv().coins then return end
         print("on")
-        for i, v in pairs(game.workspace.Assets["Coin Hunt"].Options) do
+        for i, v in pairs(game.workspace.Assets["Coin Hunt"].Coins) do
             if v.Name == "Coin" or v.Name == "Gem" then
                 hum.CFrame = v.CFrame
                 wait(.3)
